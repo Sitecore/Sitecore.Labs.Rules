@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {24D42C4C-A301-4E13-B1C2-3B016A7951E8}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/Workflow Rule Action
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: Workflow Rule Action
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 694
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule>
+    <conditions>
+      <or uid="BA814273320A4417B754911879D2FB08">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="E44CBAAED02B4C18B42A8C83E74290F0" templateid="{CB01F9FC-C187-46B3-AB0B-97A8468D8303}" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="00963D4AD6A74D0183C3D2D034772A70" templateid="{4B7E2DA9-DE43-4C83-88C3-02F042031D04}" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="{5289E94D-BCBE-41AB-A162-91A6825A24AF}" insertoptionid="{72060A96-2590-4321-B2D2-50435A75E7C5}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 5c239a74-833d-4fbb-b694-a87086a6f07b
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 51
+
+Workflow action available under commands and states
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120208T160233
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c239a74-833d-4fbb-b694-a87086a6f07b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120209T131939:634643903797826145
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

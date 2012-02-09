@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {CFE18706-5AEA-477F-8CC7-E365A0324BB6}
+database: master
+path: /sitecore/system/Settings/Rules/Workflow/Rules/Cancel
+parent: {5FBF98A3-C062-48A9-BBEC-608FFAB3B5D8}
+name: Cancel
+master: {00000000-0000-0000-0000-000000000000}
+template: {F16F789F-FA44-402B-8364-B449BD97A74C}
+templatekey: Workflow Rule
+
+----version----
+language: en
+version: 1
+revision: dc032dbd-d37e-47e6-bf67-0b16dfaf94d9
+
+----field----
+field: {0F03D423-0A9A-451B-8A0D-884842670BE8}
+name: Rules
+key: rules
+content-length: 511
+
+<?xml version="1.0" encoding="utf-16"?>
+<ruleset>
+  <rule uid="{0AEA3CAD-88E8-4794-BC57-B3751953116E}">
+    <conditions>
+      <condition id="{8A2FC3B5-0AA3-411F-834A-CB939E29B187}" uid="897C35F972BD424591AF21D1E441107D" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" StringValue="urgent" value="chris" />
+    </conditions>
+    <actions>
+      <action id="{8CCFD5FA-6548-41D3-9307-55381EFBDEE4}" uid="{CD5CDFBF-3507-4485-BA3C-DD97A8D2DF60}" username="chris" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120207T215702
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc032dbd-d37e-47e6-bf67-0b16dfaf94d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120208T143948:634643087884165747
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
