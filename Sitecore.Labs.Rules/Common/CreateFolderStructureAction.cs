@@ -17,7 +17,7 @@ namespace Sitecore.Labs.Rules.Common
         
         public ID Parent { get; set; }
         public string Field { get; set; }
-        public ID Configuration { get; set; }
+
 
         public override void Apply(T ruleContext)
         {
