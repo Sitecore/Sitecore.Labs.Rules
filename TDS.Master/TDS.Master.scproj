@@ -247,14 +247,17 @@
     <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Month format.item">
       <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Template for folders.item">
       <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Year format.item">
       <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\WorkflowRules.item">
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
