@@ -182,7 +182,16 @@
       <Converter>
         <FileToEntryConverter>
           <Root>/</Root>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </FileToEntryConverter>
       </Converter>
       <Include />
@@ -195,6 +204,7 @@
         <x-item>/master/sitecore/templates/CommonRules/{485DA379-FA0A-463D-B7A6-B560F699432E}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/{91C0E357-578D-47BC-B3E1-EB60C0D7FA79}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/{C2B4911B-821B-43F9-9B8C-9DCEE130EEAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Day format/{8FCEA1A8-D4CD-4779-A226-2AF1EB25101D}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Month format/{7C3119B3-851C-4803-95A7-C832F1FC735C}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Template for folders/{46990BB5-BF6B-41B8-A909-FDD5F284B1F0}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Year format/{35DD4712-FBFF-4DD9-83D7-2F6CAAEFD99D}/invariant/0</x-item>
@@ -202,7 +212,16 @@
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
