@@ -21,8 +21,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PostBuildEvent>xcopy /y "$(TargetPath)" "$(SitecoreWebRoot)bin"
-xcopy /y "$(ProjectDir)Includes/*.config" "$(SitecoreWebRoot)App_Config\Include"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -62,14 +60,8 @@ xcopy /y "$(ProjectDir)Includes/*.config" "$(SitecoreWebRoot)App_Config\Include"
     <Compile Include="Workflow\WorkflowAction.cs" />
     <Compile Include="Workflow\WorkflowRuleContext.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Includes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /y "$(TargetPath)" "$(SitecoreWebRoot)bin"
-xcopy /y "$(ProjectDir)Includes/*.config" "$(SitecoreWebRoot)App_Config\Include"</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

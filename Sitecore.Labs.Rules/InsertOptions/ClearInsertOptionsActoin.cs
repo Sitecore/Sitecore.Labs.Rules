@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Rules;
-using Sitecore.Rules.Actions;
+﻿using Sitecore.Rules.Actions;
 using Sitecore.Rules.InsertOptions;
 
 namespace Sitecore.Labs.Rules.InsertOptions

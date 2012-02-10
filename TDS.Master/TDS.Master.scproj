@@ -102,6 +102,7 @@
     <SitecoreItem Include="sitecore\system\Settings\Rules\Insert Options\Actions\Clear Insert Options.item">
       <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Insert Options\Rules.item">
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
@@ -190,11 +191,6 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Validation Rules\Field Types.item">
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\Validation Rules\Field Types\Rules.item">
-      <Icon>/temp/IconCache/Applications/16x16/preferences.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>

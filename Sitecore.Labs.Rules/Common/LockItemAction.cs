@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Rules;
+﻿using Sitecore.Rules;
 using Sitecore.Rules.Actions;
 using Sitecore.Diagnostics;
 using Sitecore.Security.Accounts;
-using System.Web.Security;
 using Sitecore.Data.Items;
-using Sitecore.Labs.Rules.Workflow;
 
 namespace Sitecore.Labs.Rules.Common
 {
-    public class LockItemAction<T> : RuleAction<T> where T : WorkflowRuleContext
+    public class LockItemAction<T> : RuleAction<T> where T : RuleContext
     {
         public string UserName { get; set; }
         public override void Apply(T ruleContext)

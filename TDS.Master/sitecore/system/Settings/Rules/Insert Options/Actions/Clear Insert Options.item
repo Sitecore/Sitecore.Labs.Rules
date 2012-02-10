@@ -3,7 +3,7 @@ version: 1
 id: {998619B0-AB1F-41FF-91B4-5D72CA34445B}
 database: master
 path: /sitecore/system/Settings/Rules/Insert Options/Actions/Clear Insert Options
-parent: {DB90828A-45F1-4E31-9582-442A1FD10A40}
+parent: {603BE1C8-AED7-403C-AC39-4D75D9788073}
 name: Clear Insert Options
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
@@ -141,7 +141,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 89a12300-d53d-498b-b8df-0db3c9e6d771
+revision: 54e4c24b-5517-4f41-bd82-e0262f2fec1a
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -177,14 +177,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-89a12300-d53d-498b-b8df-0db3c9e6d771
+54e4c24b-5517-4f41-bd82-e0262f2fec1a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20120209T153345:634643984256209814
+20120210T110612:634644687722896133
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

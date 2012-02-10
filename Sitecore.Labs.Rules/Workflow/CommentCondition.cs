@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Sitecore.Rules.Conditions;
+﻿using Sitecore.Rules.Conditions;
 using Sitecore.Diagnostics;
 
 namespace Sitecore.Labs.Rules.Workflow

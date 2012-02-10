@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using Sitecore.Data.Validators;
 using Sitecore.Rules;
 
@@ -17,19 +14,18 @@ namespace Sitecore.Labs.Rules.Workflow
                 return ValidatorResult.Valid;
             if (field.TypeKey != "rules") return ValidatorResult.Valid;
 
-            var rules = RuleFactory.GetRules<WorkflowRuleContext>(field);
+            if (field.Item.Parent.Template.Key != "command") return ValidatorResult.Valid;
 
+            var rules = RuleFactory.GetRules<WorkflowRuleContext>(field);
+            if (rules.Count == 0) return ValidatorResult.Valid;
             var lockItem =
                 rules.Rules.Any(r => r.Actions
                     .Any(a => a.GetType() ==
-                        typeof(Sitecore.Labs.Rules.Common.LockItemAction<WorkflowRuleContext>)));
+                        typeof(Common.LockItemAction<WorkflowRuleContext>)));
             if (lockItem)
             {
-                if (field.Item.Parent.Template.Key == "command")
-                {
-                    this.Text = GetText("The lock action will not work under a workflow command, place it under a workflow state instead");
-                    return GetMaxValidatorResult();
-                }
+                Text = GetText("The lock action will not work under a workflow command, place it under a workflow state instead");
+                return GetMaxValidatorResult();
             }
             return ValidatorResult.Valid;
         }
