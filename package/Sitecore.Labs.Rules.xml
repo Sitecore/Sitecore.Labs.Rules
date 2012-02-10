@@ -117,12 +117,20 @@
         <x-item>/master/sitecore/system/Settings/Rules/Common/Actions/Lock item/{8CCFD5FA-6548-41D3-9307-55381EFBDEE4}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Validation Rules/Field Rules/Rules/{C92EADDB-BDBB-47FE-914F-D26A9506EC11}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Validation Rules/Field Rules/Rules/Lock action is under command/{7B85FC30-C037-4D14-AE97-48022185EAF8}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Validation Rules/Field Types/Rules/{DA4ED41C-4B3A-4C4F-BFF3-94787E84CDFF}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
@@ -137,7 +145,16 @@
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
@@ -172,6 +189,26 @@
       <Exclude />
       <Name>dll</Name>
     </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Common/Actions/Create Folder Structure/{07BF17EA-CE15-4438-A1AA-BF4145D08CFB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/{485DA379-FA0A-463D-B7A6-B560F699432E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/{91C0E357-578D-47BC-B3E1-EB60C0D7FA79}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/{C2B4911B-821B-43F9-9B8C-9DCEE130EEAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Month format/{7C3119B3-851C-4803-95A7-C832F1FC735C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Template for folders/{46990BB5-BF6B-41B8-A909-FDD5F284B1F0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/CommonRules/Create Folder Action Configuration/Folder creation/Year format/{35DD4712-FBFF-4DD9-83D7-2F6CAAEFD99D}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>create folder action items</Name>
+    </xitems>
   </Sources>
   <Converter>
     <TrivialConverter>
