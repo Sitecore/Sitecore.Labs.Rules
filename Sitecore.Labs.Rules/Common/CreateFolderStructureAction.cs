@@ -13,7 +13,8 @@ namespace Sitecore.Labs.Rules.Common
         private string MonthFormat = "MM";
         private string YearFormat = "yyyy";
         private string FolderTemplateID = "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}";
-
+        private string DayFormat;
+        
         public ID Parent { get; set; }
         public string Field { get; set; }
         public ID Configuration { get; set; }
@@ -42,12 +43,18 @@ namespace Sitecore.Labs.Rules.Common
 
             var year = GetChildOrCreate(parentFolder, dateTime.ToString(YearFormat));
 
-            var month = GetChildOrCreate(year, dateTime.ToString(MonthFormat));
+            var destination = GetChildOrCreate(year, dateTime.ToString(MonthFormat));
 
-            if (item.Parent.ID != month.ID)
+            if(!string.IsNullOrEmpty(DayFormat))
+            {
+                destination = GetChildOrCreate(destination, dateTime.ToString(DayFormat));
+            }
+
+
+            if (item.Parent.ID != destination.ID)
             {
                 var oldparent = item.Parent;
-                item.MoveTo(month);
+                item.MoveTo(destination);
                 DeleteFolder(oldparent);
             }
         }
@@ -57,6 +64,7 @@ namespace Sitecore.Labs.Rules.Common
             YearFormat = StringUtil.GetString(configItem["year format"], defaultValue: YearFormat);
             MonthFormat = StringUtil.GetString(configItem["month format"], defaultValue: MonthFormat);
             FolderTemplateID = StringUtil.GetString(configItem["template for folders"], defaultValue: FolderTemplateID);
+            DayFormat = configItem["day format"];
         }
 
         private void DeleteFolder(Item item)
