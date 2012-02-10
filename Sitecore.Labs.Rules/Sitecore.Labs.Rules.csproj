@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\CreateFolderStructureAction.cs" />
     <Compile Include="Common\LockItemAction.cs" />
     <Compile Include="InsertOptions\ClearInsertOptionsActoin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

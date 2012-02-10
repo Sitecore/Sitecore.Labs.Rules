@@ -84,6 +84,11 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Common\Actions\Create Folder Structure.item">
+      <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Common\Actions\Lock item.item">
       <Icon>/temp/IconCache/Software/32x32/shape_rectangle.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -128,6 +133,10 @@
       <Icon>/temp/IconCache/Software/32x32/shape_ellipse.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Rules\Item Saved\Rules\test folder creation.item">
+      <Icon>/temp/IconCache/Software/32x32/shape_ellipse.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Settings\Rules\Workflow.item">
       <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
@@ -222,6 +231,33 @@
     <SitecoreItem Include="sitecore\templates.item">
       <Icon>/temp/IconCache/Applications/16x16/form_blue.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration.item">
+      <Icon>/temp/IconCache/Applications/32x32/form_blue.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation.item">
+      <Icon>/temp/IconCache/Applications/16x16/folder_gear.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Month format.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Template for folders.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\CommonRules\Create Folder Action Configuration\Folder creation\Year format.item">
+      <Icon>/temp/IconCache/Applications/32x32/Document.png</Icon>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\WorkflowRules.item">
