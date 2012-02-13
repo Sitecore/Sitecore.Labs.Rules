@@ -6,7 +6,7 @@ using Sitecore.Rules;
 using Sitecore.Rules.Actions;
 using Sitecore.Data.Items;
 
-namespace Sitecore.Labs.Rules.Common
+namespace Sitecore.Labs.Rules.Common.Actions
 {
     public class CreateFolderStructureAction<T> : RuleAction<T> where T : RuleContext
     {

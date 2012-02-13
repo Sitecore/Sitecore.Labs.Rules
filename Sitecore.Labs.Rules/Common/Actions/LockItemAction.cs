@@ -4,7 +4,7 @@ using Sitecore.Diagnostics;
 using Sitecore.Security.Accounts;
 using Sitecore.Data.Items;
 
-namespace Sitecore.Labs.Rules.Common
+namespace Sitecore.Labs.Rules.Common.Actions
 {
     public class LockItemAction<T> : RuleAction<T> where T : RuleContext
     {

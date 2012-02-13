@@ -13,13 +13,13 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 74
+content-length: 82
 
-Sitecore.Labs.Rules.Common.CreateFolderStructureAction,Sitecore.Labs.Rules
+Sitecore.Labs.Rules.Common.Actions.CreateFolderStructureAction,Sitecore.Labs.Rules
 ----version----
 language: en
 version: 1
-revision: 67dea772-724b-42ac-bc29-97de2d0c64a4
+revision: 7ca92d27-49a7-4b5a-8974-0211a479857f
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-67dea772-724b-42ac-bc29-97de2d0c64a4
+7ca92d27-49a7-4b5a-8974-0211a479857f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20120210T133204:634644775240901877
+20120213T131543:634647357430131154
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
