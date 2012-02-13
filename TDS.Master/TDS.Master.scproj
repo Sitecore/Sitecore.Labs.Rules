@@ -26,11 +26,7 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\Debug\</OutputPath>
-    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreDeployFolder>d:\websites\rulesdemo\website</SitecoreDeployFolder>
-    <SitecoreWebUrl>http://rulesdemo.local</SitecoreWebUrl>
-    <SitecoreAccessGuid>a645ae12-2262-4dac-b139-ae8a06a847bd</SitecoreAccessGuid>
-    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>   
     <PackageAuthor>
     </PackageAuthor>
     <PackagePublisher>
