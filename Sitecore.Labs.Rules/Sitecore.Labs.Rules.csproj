@@ -33,9 +33,11 @@
   <ItemGroup>
     <Reference Include="Sitecore.Analytics">
       <HintPath>..\lib\Sitecore.Analytics.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -50,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Actions\Add Control.cs" />
+    <Compile Include="Common\Actions\CreateFolderStructureAction.cs" />
+    <Compile Include="Common\Actions\LockItemAction.cs" />
     <Compile Include="Common\Actions\SetMVDataSource.cs" />
     <Compile Include="Common\Conditions\AliasDetection.cs" />
     <Compile Include="Common\Conditions\AnsweredAPoll.cs" />
@@ -62,10 +66,8 @@
     <Compile Include="Common\Conditions\ReferrerDetection.cs" />
     <Compile Include="Common\Conditions\SmallPage.cs" />
     <Compile Include="Common\Conditions\TimedProfileScores.cs" />
-    <Compile Include="Common\CreateFolderStructureAction.cs" />
     <Compile Include="Common\Actions\DeviceDetection.cs" />
     <Compile Include="Common\Actions\FireGoal.cs" />
-    <Compile Include="Common\LockItemAction.cs" />
     <Compile Include="Common\Actions\ProfileMultiplier.cs" />
     <Compile Include="Common\Actions\SetParameterTemplateValue.cs" />
     <Compile Include="InsertOptions\ClearInsertOptionsActoin.cs" />

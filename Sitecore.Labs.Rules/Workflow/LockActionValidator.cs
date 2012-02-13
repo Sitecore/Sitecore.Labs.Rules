@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Sitecore.Data.Validators;
+using Sitecore.Labs.Rules.Common.Actions;
 using Sitecore.Rules;
 
 namespace Sitecore.Labs.Rules.Workflow
@@ -21,7 +22,7 @@ namespace Sitecore.Labs.Rules.Workflow
             var lockItem =
                 rules.Rules.Any(r => r.Actions
                     .Any(a => a.GetType() ==
-                        typeof(Common.LockItemAction<WorkflowRuleContext>)));
+                        typeof(LockItemAction<WorkflowRuleContext>)));
             if (lockItem)
             {
                 Text = GetText("The lock action will not work under a workflow command, place it under a workflow state instead");
