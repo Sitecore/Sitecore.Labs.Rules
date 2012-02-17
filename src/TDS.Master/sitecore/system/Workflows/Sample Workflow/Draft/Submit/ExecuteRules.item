@@ -13,7 +13,7 @@ templatekey: Workflow Rule Action
 field: {A291A22B-99E2-46BB-A27B-8EC744275396}
 name: Type
 key: type
-content-length: 63
+content-length: 73
 
 Sitecore.Labs.Rules.Workflow.RuleEngineWorkflowAction,Sitecore.Labs.Rules
 ----version----
@@ -32,7 +32,7 @@ content-length: 0
 field: {D1BB3149-56C8-465A-9CD5-A1E347A9A6FF}
 name: Rules
 key: rules
-content-length: 435
+content-length: 444
 
 <ruleset>
   <rule uid="{B1EFB939-AD7E-4BFC-BE1B-8AA2235E666C}">

@@ -13,7 +13,7 @@ templatekey: Validation Rule
 field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
 name: Type
 key: type
-content-length: 68
+content-length: 79
 
 Sitecore.Labs.Rules.Workflow.Validators.LockActionValidator,Sitecore.Labs.Rules
 ----field----

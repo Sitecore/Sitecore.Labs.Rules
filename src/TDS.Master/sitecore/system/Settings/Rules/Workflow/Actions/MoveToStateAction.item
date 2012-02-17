@@ -13,7 +13,7 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 66
+content-length: 74
 
 Sitecore.Labs.Rules.Workflow.Actions.MoveToStateAction,Sitecore.Labs.Rules
 ----version----

@@ -13,7 +13,7 @@ templatekey: Action
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 61
+content-length: 69
 
 Sitecore.Labs.Rules.Workflow.Actions.CancelAction,Sitecore.Labs.Rules
 ----version----

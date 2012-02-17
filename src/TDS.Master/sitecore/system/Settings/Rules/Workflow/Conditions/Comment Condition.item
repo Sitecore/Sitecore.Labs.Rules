@@ -13,7 +13,7 @@ templatekey: Condition
 field: {AB51C8B2-F0E1-4471-9AAE-CC080D774923}
 name: Type
 key: type
-content-length: 65
+content-length: 76
 
 Sitecore.Labs.Rules.Workflow.Conditions.CommentCondition,Sitecore.Labs.Rules
 ----version----
