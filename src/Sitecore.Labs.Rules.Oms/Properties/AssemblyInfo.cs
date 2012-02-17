@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Sitecore.Labs.Rules.Oms")]
-[assembly: AssemblyDescription("Addictional rules, actions and conditions for use with the Sitecore Rules Engine and the OMS (v6.4).")]
+[assembly: AssemblyDescription("Additional rules, actions and conditions for use with the Sitecore Rules Engine and the OMS (v6.4).")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sitecore")]
 [assembly: AssemblyProduct("Sitecore.Labs.Rules.Oms")]
