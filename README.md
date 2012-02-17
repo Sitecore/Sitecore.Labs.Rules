@@ -7,8 +7,8 @@ Choose a project
 ----
 There are currently 2 projects you can select from:
 
- - Sitecore.Labs.Rules - This contains various sets of rules for Sitecore v6.4 or v6.5
- - Sitecore.Labs.Rules.Oms - This contains a specific set of actions and conditons for use with the Sitecore OMS (v6.4)
+ - *Sitecore.Labs.Rules* - This contains various sets of customized rules you can use with Sitecore v6.4 or v6.5
+ - *Sitecore.Labs.Rules.Oms* - This contains a specific set of actions and conditons for use with the Sitecore OMS (v6.4)
 
 Forking & Contributing
 -----
